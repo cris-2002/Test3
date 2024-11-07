@@ -13,8 +13,7 @@
 
 </body>
 
-<h1>Display a Submit Button</h1>
-<form action="/action_page.php">
+<form action="/submit-form" method="POST">
 <div>
 	<label>First Name:</label>
 	<input type="text" name="firstname"class="form-control">
@@ -44,6 +43,7 @@
 	<label>Course & Section:</label>
 	<input type="text" name="course & section"class="form-control">
 </div>
+<button type="submit">Submit</button>
 </form>
 
 </html>
