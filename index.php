@@ -13,7 +13,8 @@
 
 </body>
 
-
+<h1>Display a Submit Button</h1>
+<form action="/action_page.php">
 <div>
 	<label>First Name:</label>
 	<input type="text" name="firstname"class="form-control">
@@ -28,6 +29,23 @@
 	<label>Last Name:</label>
 	<input type="text" name="lastname"class="form-control">
 </div>
+
+<div>
+	<label>Age:</label>
+	<input type="text" name="age"class="form-control">
+</div>
+
+<div>
+	<label>Address:</label>
+	<input type="text" name="address"class="form-control">
+</div>
+
+<div>
+	<label>Course & Section:</label>
+	<input type="text" name="course & section"class="form-control">
+</div>
+</form>
+
 </html>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
